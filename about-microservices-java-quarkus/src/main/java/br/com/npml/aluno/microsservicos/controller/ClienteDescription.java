@@ -13,12 +13,12 @@ import org.eclipse.microprofile.openapi.annotations.tags.Tag;
         @Tag(name = "cliente", description = "API de Cliente para o estudo sobre microsserviços com Quarkus.")
     },
     info = @Info(
-        title = "API Cliente - Coleção com dados de cadastro de clientes",
-        version = "1.0.0-BETA",
-        contact = @Contact(
-        name = "Niky Lima",
-        url = "https://github.com/npmltech/About-Microservices-With-Quarkus",
-        email = "devqasp@gmail.com"
+            title = "API Cliente - Coleção com dados de cadastro de clientes",
+            version = "1.0.0-BETA",
+            contact = @Contact(
+            name = "Niky Lima",
+            url = "https://github.com/npmltech/About-Microservices-With-Quarkus",
+            email = "devqasp@gmail.com"
         ),
         license = @License(
             name = "Apache 2.0",
