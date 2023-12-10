@@ -24,7 +24,7 @@ import java.util.List;
 @Consumes("application/json")
 public class ClienteController {
 
-    private static final Logger LOGGER = Logger.getLogger(ClienteController.class);
+    private static final Logger LOGGER = Logger.getLogger(ClienteController.class.getName());
 
     @GET
     @Operation(summary = "Retorna todos os clientes cadastrados")
