@@ -13,7 +13,7 @@ release.properties
 bin/
 
 # IntelliJ
-.idea
+about-microservices-java-quarkus/.idea
 *.ipr
 *.iml
 *.iws
