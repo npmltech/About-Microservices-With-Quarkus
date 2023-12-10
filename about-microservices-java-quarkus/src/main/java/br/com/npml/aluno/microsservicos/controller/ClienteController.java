@@ -12,6 +12,7 @@ import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;
 import jakarta.ws.rs.ext.Provider;
+import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.jboss.logging.Logger;
 import org.jboss.resteasy.reactive.RestResponse;
 
@@ -26,18 +27,21 @@ public class ClienteController {
     private static final Logger LOGGER = Logger.getLogger(ClienteController.class);
 
     @GET
+    @Operation(summary = "Retorna todos os clientes cadastrados")
     @Path("/clientes")
     public Uni<List<Cliente>> getAll() {
         return Cliente.listAll();
     }
 
     @GET
+    @Operation(summary = "Retorna um cliente cadastrado utilizando Id")
     @Path("/cliente/{id}")
     public Uni<Cliente> getById(Long id) {
         return Cliente.findById(id);
     }
 
     @POST
+    @Operation(summary = "Insere um novo cliente")
     @Path("/cliente")
     public Uni<RestResponse<Cliente>> create(Cliente cliente) {
         if (cliente != null && cliente.getId() == null)
@@ -49,6 +53,7 @@ public class ClienteController {
     }
 
     @PUT
+    @Operation(summary = "Altera os dados de um cliente cadastrado")
     @Path("/cliente/{id}")
     public Uni<RestResponse<Cliente>> update(Long id, Cliente cliente) {
         //
@@ -82,6 +87,7 @@ public class ClienteController {
     }
 
     @DELETE
+    @Operation(summary = "Remove um cliente cadastrado utilizando Id")
     @Path("/cliente/{id}")
     public Uni<RestResponse<Cliente>> delete(Long id) {
         return Panache.withTransaction(() -> Cliente.deleteById(id))
