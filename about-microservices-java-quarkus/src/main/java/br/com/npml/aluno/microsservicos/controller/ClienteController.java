@@ -23,7 +23,7 @@ import java.util.List;
 @Consumes("application/json")
 public class ClienteController {
 
-    private static final Logger LOGGER = Logger.getLogger(ClienteController.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(ClienteController.class);
 
     @GET
     @Path("/clientes")
@@ -42,8 +42,8 @@ public class ClienteController {
     public Uni<RestResponse<Cliente>> create(Cliente cliente) {
         if (cliente != null && cliente.getId() == null)
             return Panache.withTransaction(cliente::persist)
-                .replaceWith(RestResponse.status(RestResponse.Status.CREATED, cliente)
-            );
+                .replaceWith(RestResponse.status(RestResponse.Status.CREATED, cliente));
+            //
         //
         throw new WebApplicationException("O ID foi definido de forma inválida na requisição.", 422);
     }
@@ -63,7 +63,7 @@ public class ClienteController {
         );
         //
         if (ClienteController.isDadosClientePreenchido(cliente))
-            return Panache.withTransaction(() -> Cliente.<Cliente> findById(id)
+            return Panache.withTransaction(() -> Cliente.<Cliente>findById(id)
                 .onItem().ifNotNull().invoke(c -> c.setNomeCliente(cliente.getNomeCliente()))
                 .onItem().ifNotNull().invoke(c -> c.setNomeDocumento(cliente.getNomeDocumento()))
                 .onItem().ifNotNull().invoke(c -> c.setNumDocumentoPrincipal(cliente.getNumDocumentoPrincipal()))
@@ -92,7 +92,7 @@ public class ClienteController {
         //
     }
 
-     private static boolean isDadosClientePreenchido(Cliente cliente) {
+    private static boolean isDadosClientePreenchido(Cliente cliente) {
         return cliente != null
             && cliente.getNomeCliente() != null
             && cliente.getNomeDocumento() != null

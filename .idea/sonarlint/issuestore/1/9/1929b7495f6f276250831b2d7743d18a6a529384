@@ -1,0 +1,13 @@
+
+E
+java:S5411X"(Use a primitive boolean expression here.(…€·ã8îû¨Å1
+u
+java:S3252"_Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "listAll".(¨“Ô€
+{
+java:S3252%"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(‹Ûáãúÿÿÿÿ
+{
+java:S3252B"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(¾ğ²Ñúÿÿÿÿ
+}
+java:S3252W"bUse static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "deleteById".(¸©ËÌÿÿÿÿÿ
+]
+java:S6813m"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ

@@ -159,14 +159,16 @@ public class Cliente extends PanacheEntity {
     }
 
     public static void main(String[] args) {
-        out.print(new Cliente(
-            (long) 1,
-            "Mario Martins",
-            "RG",
-            (long) 123123123,
-            false,
-            "TESTE TESTE",
-            "Crédito"
-        ));
+        out.print(
+            new Cliente(
+                (long) 1,
+                "Mario Martins",
+                "RG",
+                (long) 123123123,
+                false,
+                "TESTE TESTE",
+                "Crédito"
+            )
+        );
     }
 }

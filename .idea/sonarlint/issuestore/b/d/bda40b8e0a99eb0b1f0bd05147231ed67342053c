@@ -1,0 +1,8 @@
+
+E	java:S106	"+Replace this use of System.out by a logger.(“×·ôþÿÿÿÿ
+n	java:S116b"TRename this field "JSON_DATA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÜ¸Ýøÿÿÿÿ
+J
+java:S2387"/"id" is the name of a field in "PanacheEntity".(þÓî«þÿÿÿÿ
+<
+java:S1170b"!Make this final field static too.(šÜ¸Ýøÿÿÿÿ
+W	java:S125‚"<This block of commented-out lines of code should be removed.(Š¤”Öþÿÿÿÿ
