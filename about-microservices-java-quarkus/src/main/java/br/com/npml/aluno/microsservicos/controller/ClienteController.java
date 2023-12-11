@@ -18,6 +18,8 @@ import org.jboss.resteasy.reactive.RestResponse;
 
 import java.util.List;
 
+import static java.lang.String.*;
+
 @Path("/api/v1")
 @ApplicationScoped
 @Produces("application/json")
@@ -30,6 +32,7 @@ public class ClienteController {
     @Operation(summary = "Retorna todos os clientes cadastrados")
     @Path("/clientes")
     public Uni<List<Cliente>> getAll() {
+        LOGGER.info("-- Listando todos clientes - GET_ALL --");
         return Cliente.listAll();
     }
 
@@ -37,13 +40,15 @@ public class ClienteController {
     @Operation(summary = "Retorna um cliente cadastrado utilizando Id")
     @Path("/cliente/{id}")
     public Uni<Cliente> getById(Long id) {
+        LOGGER.info(format("-- Devolvendo um cliente por id: %d - GET_BY_ID --", id));
         return Cliente.findById(id);
     }
 
     @POST
-    @Operation(summary = "Insere um novo cliente")
+    @Operation(summary = "Cadastra um novo cliente")
     @Path("/cliente")
     public Uni<RestResponse<Cliente>> create(Cliente cliente) {
+        LOGGER.info("-- Inserindo um novo cliente - CREATE --");
         if (cliente != null && cliente.getId() == null)
             return Panache.withTransaction(cliente::persist)
                 .replaceWith(RestResponse.status(RestResponse.Status.CREATED, cliente));
@@ -56,8 +61,9 @@ public class ClienteController {
     @Operation(summary = "Altera os dados de um cliente cadastrado")
     @Path("/cliente/{id}")
     public Uni<RestResponse<Cliente>> update(Long id, Cliente cliente) {
+        LOGGER.info(format("-- Atualizando um cliente por id: %d - UPDATE_BY_ID --", id));
         //
-        Cliente atualizacaoCliente = new Cliente(
+        Cliente todosDadosCliente = new Cliente(
             id,
             cliente.getNomeCliente(),
             cliente.getNomeDocumento(),
@@ -76,12 +82,12 @@ public class ClienteController {
                 .onItem().ifNotNull().invoke(cli -> cli.setObservacao(cliente.getObservacao()))
                 .onItem().ifNotNull().invoke(cli -> cli.setMetodoPagamento(cliente.getMetodoPagamento()))
             )
-            .onItem().ifNotNull().transform(result -> RestResponse.status(Response.Status.OK, atualizacaoCliente))
-            .onItem().ifNull().continueWith(() -> RestResponse.status(Response.Status.NOT_FOUND, atualizacaoCliente))
-            .replaceWith(RestResponse.status(RestResponse.Status.CREATED, atualizacaoCliente));
+            .onItem().ifNotNull().transform(result -> RestResponse.status(Response.Status.OK, cliente))
+            .onItem().ifNull().continueWith(() -> RestResponse.status(Response.Status.NOT_FOUND, todosDadosCliente))
+            .replaceWith(RestResponse.status(RestResponse.Status.CREATED, todosDadosCliente));
         //
         throw new WebApplicationException(Response.status(Response.Status.INTERNAL_SERVER_ERROR)
-            .entity("Um ou mais dados inválidos foram enviados na requisição: \r\n" + atualizacaoCliente)
+            .entity("Existem um ou mais dados inválidos enviados na requisição: \r\n" + todosDadosCliente)
             .build()
         );
     }
@@ -90,6 +96,7 @@ public class ClienteController {
     @Operation(summary = "Remove um cliente cadastrado utilizando Id")
     @Path("/cliente/{id}")
     public Uni<RestResponse<Cliente>> delete(Long id) {
+        LOGGER.info(format("-- Removendo um cliente por id: %d - DELETE_BY_ID --", id));
         return Panache.withTransaction(() -> Cliente.deleteById(id))
             .map(deleted -> deleted
                 ? RestResponse.status(RestResponse.Status.NO_CONTENT)

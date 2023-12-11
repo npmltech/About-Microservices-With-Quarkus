@@ -95,9 +95,11 @@ public class Cliente extends PanacheEntity {
         this.metodoPagamento = metodoPagamento;
     }
 
-    private final String JSON_DATA =
-        "{"
-            + "{"
+    @Override
+    public String toString() {
+        return
+            "{"
+                + "{"
                 + "      \"idCliente\": \"" + id + "\","
                 + "      \"nomeCliente\": \"" + nomeCliente + "\","
                 + "      \"nomeDocumento\" : \"" + nomeDocumento + "\","
@@ -105,30 +107,10 @@ public class Cliente extends PanacheEntity {
                 + "      \"bloqueio\" : \"" + bloqueio + "\","
                 + "      \"observacao\" : \"" + observacao + "\","
                 + "      \"metodoPagamento\" : \"" + metodoPagamento + "\""
-            + "}"
-        + "}";
-
-    @Override
-    public String toString() {
-        return JSON_DATA;
-        /*
-            return String.format(
-                "idCliente: %d,%n" +
-                "nomeCliente: %s,%n" +
-                "nomeDocumento: %s,%n" +
-                "numDocumentoPrincipal: %s,%n" +
-                "bloqueio: %b,%n" +
-                "observacao: %s,%n" +
-                "metodoPagamento: %s.",
-                id,
-                nomeCliente,
-                nomeDocumento,
-                numDocumentoPrincipal,
-                bloqueio,
-                observacao,
-                metodoPagamento
-            );
-        */
+                + "}"
+            + "}";
+            //
+        //
     }
 
     @Override
