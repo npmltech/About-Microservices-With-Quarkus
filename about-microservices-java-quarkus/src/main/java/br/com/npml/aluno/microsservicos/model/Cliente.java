@@ -13,17 +13,11 @@ import static java.lang.System.out;
 public class Cliente extends PanacheEntity {
 
     private Long id;
-
     private String nomeCliente;
-
     private String nomeDocumento;
-
     private Long numDocumentoPrincipal;
-
     private Boolean bloqueio;
-
     private String observacao;
-
     private String metodoPagamento;
 
     public Cliente() {
