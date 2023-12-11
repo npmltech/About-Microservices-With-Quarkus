@@ -14,3 +14,8 @@ A microservice example using Quarkus.
 ```shell
 ./about-microservices-java-quarkus-1.0.0-BETA-runner
 ```
+
+- Gerando uma imagem docker utilizando o Dockerfile.native do Quarkus. No diretório raiz, execute:
+```dockerfile
+docker build -f src/main/docker/Dockerfile.native -t nikylima/getting-started .
+```
