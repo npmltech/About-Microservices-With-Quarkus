@@ -3,7 +3,7 @@ A microservice example using Quarkus.
 
 ### Comandos úteis - Quarkus
 
-#### Gerar um executável
+#### Gerar um executável:
 
 - No diretório raiz, executar o comando:
 ```java
