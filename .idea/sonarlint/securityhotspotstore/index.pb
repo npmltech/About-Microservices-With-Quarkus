@@ -11,3 +11,13 @@ X
 (about-microservices-java-quarkus/pom.xml,8/7/8701b179f201f8a7656f273d89580dc8af517bf3
 ¢
 rabout-microservices-java-quarkus/src/main/java/br/com/npml/aluno/microsservicos/controller/ClienteDescription.java,9/f/9f13c96090c739ec78087e7d7c1510ccd1d01da9
+v
+Fabout-microservices-java-quarkus/.mvn/wrapper/maven-wrapper.properties,5/d/5d67b144e14ed30365d9421a4ba99516963c916c
+r
+Babout-microservices-java-quarkus/src/main/docker/Dockerfile.native,c/b/cbd222f0076ceffa098e213c6ec7f7e2f40277e0
+x
+Habout-microservices-java-quarkus/src/main/docker/Dockerfile.native-micro,2/5/25cf576af5440ee1bc6326d21e0d61454e99e44f
+v
+Fabout-microservices-java-quarkus/src/main/docker/Dockerfile.legacy-jar,2/9/295bbe6445327e044af5261f7b0bce2ad3ffe7a9
+o
+?about-microservices-java-quarkus/src/main/docker/Dockerfile.jvm,2/a/2a76498c842b1fc9fecf1204a62a1aab6cf4042e
