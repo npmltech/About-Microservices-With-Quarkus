@@ -1,13 +1,13 @@
 
 E
-java:S5411e"(Use a primitive boolean expression here.(…€·ã8®¤³Å1
+java:S5411e"(Use a primitive boolean expression here.(…€·ã8…šŞ—Ç1
 |
-java:S3252$"_Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "listAll".(¨“Ô€8É¤³Å1
+java:S3252$"_Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "listAll".(¨“Ô€8áœŞ—Ç1
 ‚
-java:S3252,"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(‹Ûáãúÿÿÿÿ8Ê¤³Å1
+java:S3252,"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(‹Ûáãúÿÿÿÿ8çœŞ—Ç1
 ‚
-java:S3252M"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(¾ğ²Ñúÿÿÿÿ8Ğ¤³Å1
+java:S3252M"`Use static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "findById".(¾ğ²Ñúÿÿÿÿ8ıœŞ—Ç1
 „
-java:S3252d"bUse static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "deleteById".(¸©ËÌÿÿÿÿÿ8Ó¤³Å1
+java:S3252d"bUse static access with "io.quarkus.hibernate.reactive.panache.PanacheEntityBase" for "deleteById".(¸©ËÌÿÿÿÿÿ8ŒŞ—Ç1
 d
 java:S6813z"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8Ô¤³Å1

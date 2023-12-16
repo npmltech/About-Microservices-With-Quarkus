@@ -21,3 +21,9 @@ v
 Fabout-microservices-java-quarkus/src/main/docker/Dockerfile.legacy-jar,2/9/295bbe6445327e044af5261f7b0bce2ad3ffe7a9
 o
 ?about-microservices-java-quarkus/src/main/docker/Dockerfile.jvm,2/a/2a76498c842b1fc9fecf1204a62a1aab6cf4042e
+˜
+habout-microservices-java-quarkus/src/test/java/br/com/npml/aluno/microsservicos/ClienteResourceTest.java,0/1/01f7b80dc01d0d1794bffb244cd5ec92204d7bbc
+–
+fabout-microservices-java-quarkus/src/test/java/br/com/npml/aluno/microsservicos/ClienteResourceIT.java,4/2/4285334cc524ccb849a68ed5122662cdeeb717f3
+˜
+habout-microservices-java-quarkus/src/test/java/br/com/npml/aluno/microsservicos/ClienteCasosDeTeste.java,b/2/b29995fd40530f398b75b41f1b7adbc6186cac77
