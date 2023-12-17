@@ -35,6 +35,8 @@ mvn clean && mvn spring-boot:run ou
 
 6. Documentação das APIs: http://localhost:8082/q/swagger-ui/
 
+![swagger-ui.png](swagger-imagem%2Fswagger-ui.png)
+
 ### Comandos úteis - Quarkus
 
 #### Gerar um executável:
