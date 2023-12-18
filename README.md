@@ -15,7 +15,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 ## 🚀 Realizando o Setup
 
-- O Projeto se encontra no diretório: **About-Microservices-Java-Web**
+- O Projeto se encontra no diretório: **about-microservices-java-quarkus**
 
 1. Clone o repositório;
 
@@ -25,7 +25,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 ```bash
 mvn clean test
 ```
-4. Execute o comando para executar a aplicação: 
+4. Execute o comando para iniciar a aplicação: 
 ```bash
 mvn clean && mvn spring-boot:run ou
 ./mvnw compile quarkus:dev
