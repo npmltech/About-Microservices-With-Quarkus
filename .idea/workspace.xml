@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5db3a309-f1df-41d4-a91a-c152a0cc2aee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/About-Microservices-With-Quarkus.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01f7b80dc01d0d1794bffb244cd5ec92204d7bbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1929b7495f6f276250831b2d7743d18a6a529384" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25cf576af5440ee1bc6326d21e0d61454e99e44f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/9/295bbe6445327e044af5261f7b0bce2ad3ffe7a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a76498c842b1fc9fecf1204a62a1aab6cf4042e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/4285334cc524ccb849a68ed5122662cdeeb717f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59d0283622dbec18a9b9ba946900cf8ab84cb735" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d67b144e14ed30365d9421a4ba99516963c916c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/8701b179f201f8a7656f273d89580dc8af517bf3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f13c96090c739ec78087e7d7c1510ccd1d01da9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b29995fd40530f398b75b41f1b7adbc6186cac77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bda40b8e0a99eb0b1f0bd05147231ed67342053c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cbd222f0076ceffa098e213c6ec7f7e2f40277e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/1/01f7b80dc01d0d1794bffb244cd5ec92204d7bbc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/9/1929b7495f6f276250831b2d7743d18a6a529384" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/5/25cf576af5440ee1bc6326d21e0d61454e99e44f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/9/295bbe6445327e044af5261f7b0bce2ad3ffe7a9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a76498c842b1fc9fecf1204a62a1aab6cf4042e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/2/4285334cc524ccb849a68ed5122662cdeeb717f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/9/59d0283622dbec18a9b9ba946900cf8ab84cb735" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/d/5d67b144e14ed30365d9421a4ba99516963c916c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/7/8701b179f201f8a7656f273d89580dc8af517bf3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9f13c96090c739ec78087e7d7c1510ccd1d01da9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b29995fd40530f398b75b41f1b7adbc6186cac77" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/d/bda40b8e0a99eb0b1f0bd05147231ed67342053c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/b/cbd222f0076ceffa098e213c6ec7f7e2f40277e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,38 +34,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.ClienteResourceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClienteResourceTest.testAtualizarCliente.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClienteResourceTest.testGetClientePorId.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClienteResourceTest.testGetTodosClientes.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClienteResourceTest.testInserirCliente.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClienteResourceTest.testRemoverCliente.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.about-microservices-java-quarkus [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.about-microservices-java-quarkus [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.about-microservices-java-quarkus [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.about-microservices-java-quarkus [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.about-microservices-java-quarkus [test].executor&quot;: &quot;Run&quot;,
-    &quot;Quarkus.about-microservices-java-quarkus.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nlima/Projects/Java/About-Microservices-With-Quarkus&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ClienteResourceTest.executor": "Run",
+    "JUnit.ClienteResourceTest.testAtualizarCliente.executor": "Run",
+    "JUnit.ClienteResourceTest.testGetClientePorId.executor": "Run",
+    "JUnit.ClienteResourceTest.testGetTodosClientes.executor": "Run",
+    "JUnit.ClienteResourceTest.testInserirCliente.executor": "Run",
+    "JUnit.ClienteResourceTest.testRemoverCliente.executor": "Run",
+    "Maven.about-microservices-java-quarkus [clean].executor": "Run",
+    "Maven.about-microservices-java-quarkus [compile].executor": "Run",
+    "Maven.about-microservices-java-quarkus [install].executor": "Run",
+    "Maven.about-microservices-java-quarkus [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.about-microservices-java-quarkus [package].executor": "Run",
+    "Maven.about-microservices-java-quarkus [test].executor": "Run",
+    "Quarkus.about-microservices-java-quarkus.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/nlima/Projects/Java/About-Microservices-Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -173,7 +136,7 @@
       <workItem from="1702428142286" duration="1000" />
       <workItem from="1702732541857" duration="10037000" />
       <workItem from="1702753428614" duration="982000" />
-      <workItem from="1702856188729" duration="490000" />
+      <workItem from="1702856188729" duration="4291000" />
     </task>
     <servers />
   </component>
