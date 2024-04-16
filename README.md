@@ -28,8 +28,7 @@ mvn clean test
 ```
 4. Execute o comando para iniciar a aplicação: 
 ```bash
-mvn clean && mvn spring-boot:run ou
-./mvnw compile quarkus:dev
+mvn clean && mvn ./mvnw compile quarkus:dev
 ```
 
 5. O serviço roda na porta: 8082.
